@@ -161,6 +161,7 @@ public class TadPilhaJavaExerc2 {
         }
 
         System.out.println("\n\nObrigado e ate' a proxima!!\n\n");
+        scn.close();
 
     }
 
@@ -206,7 +207,7 @@ public class TadPilhaJavaExerc2 {
         }
         System.out.print(" | (" + (tam - pilha3.qtd()) + " vagas)");
         // ------------------------------------------------------------------
-
+        
     }
 
     private static boolean fimDeJogo() {
@@ -230,5 +231,6 @@ public class TadPilhaJavaExerc2 {
 
         return true;
     }
+
 
 }
