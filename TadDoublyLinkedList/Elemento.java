@@ -11,11 +11,13 @@ public class Elemento {
         this.nome = nome;
         this.numero = numero;
         this.proximo = null;
+        this.anterior = null;
     }
 
     private String nome;
     private int numero;
     private Elemento proximo;
+    private Elemento anterior;
 
     public String getNome() {
         return nome;
@@ -40,5 +42,15 @@ public class Elemento {
     public void setProximo(Elemento proximo) {
         this.proximo = proximo;
     }
+
+    public Elemento getAnterior() {
+        return anterior;
+    }
+
+    public void setAnterior(Elemento anterior) {
+        this.anterior = anterior;
+    }
+    
+    
 
 }
